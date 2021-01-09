@@ -10,6 +10,7 @@ export const Dish = (props) => {
     return (
         <div className="Dish">
             <h2>{props.name}</h2>
+            <p>Price: ${props.price}</p>
             <p>Amount: {counter}</p>
             <button onClick={addDish}>Add dish ➕</button>
         </div>

@@ -4,9 +4,9 @@ function App() {
   return (
     <div> 
       <h1>HTN Restaurant</h1>
-      <Dish name="Pizza 🍕"/>
-      <Dish name="Pasta 🍝"/>
-      <Dish name="Soup 🍜"/>
+      <Dish name="Pizza 🍕" price={10}/>
+      <Dish name="Pasta 🍝" price={20}/>
+      <Dish name="Soup 🍜" price={15}/>
     </div>
   );
 }

@@ -1,26 +1,17 @@
-import React from "react";
+import React, {useState} from "react"
 
-export class Dish extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            counter: 0
-        };
-    }
+export const Dish = (props) => {
+    const [counter, setCounter] = useState(0);
 
-    addDish = () => {
-        this.setState({
-            counter: this.state.counter+1
-        });
-    }
+    const addDish = () => {
+        setCounter(counter+1);
+    };
 
-    render() {
-        return (
-            <div className="Dish">
-                <h2>{this.props.name}</h2>
-                <p>Amount: {this.state.counter}</p>
-                <button onClick={this.addDish}>Add dish</button>
-            </div>
-        );
-    }
-}
+    return (
+        <div className="Dish">
+            <h2>{props.name}</h2>
+            <p>Amount: {counter}</p>
+            <button onClick={addDish}>Add dish ➕</button>
+        </div>
+    );
+};

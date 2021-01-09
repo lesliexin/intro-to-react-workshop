@@ -5,9 +5,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f8d7d0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button {
+  padding: 0.7em 1.4em;
+  margin: 0 0.3em 0.3em 0;
+  border: none;
+  box-sizing: border-box;
+  font-weight: bold;
+  background: #caeefd;
+  text-align: center;
+  position: relative;
+  border-radius: 20px;
+}
+
+button:hover {
+  background: #b2def0;
+}
+
+button:active {
+  outline: none;
+  background: #95cae0;
+}
+
+button:focus {
+  outline: none;
+}
+
+.Dish {
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  color: #004d85;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+p {
+  font-weight: bold;
+  color: #696969;
 }

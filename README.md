@@ -1,5 +1,7 @@
 # Intro to React and React Hooks ✨
 
+**The full recording of the workshop can be found [here!](https://www.youtube.com/watch?v=UDPS_VCx4yE&ab_channel=HacktheNorth)**
+
 In this introductory React workshop, you will extend your frontend development knowledge beyond basic HTML, CSS, and JavaScript. React is one of the most popular and widely used frontend libraries and can be used to scale and elevate web applications. We will cover React fundamentals and set you up with everything you need to know to start your first React project. As a bonus, we’ll be covering React Hooks, which transform and simplify the way we write React applications!
 
 For this workshop, we'll be building a fun little **restaurant app**!

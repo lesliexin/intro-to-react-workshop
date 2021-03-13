@@ -48,6 +48,9 @@ We'll add in some user input to our app here to make it more interesting!
  
 We'll add some additional data to our app to make it seem closer to a real restaurant app.
 
+### [Extending React: Example API call with cards API](https://github.com/lesliexin/intro-to-react-workshop/tree/f1c3ec4ed99ba448b14aad82e301c8fb53e917d2)
+ 
+Here's an example API call unrelated to the restaurant app, using the free deck of cards API.
 
 ## How to run the application
 
